@@ -1,8 +1,8 @@
+import Filter from './Filter/Filter';
 import { Component } from 'react';
 import { nanoid } from 'nanoid';
 import Form from './Form/Form';
 import ContactList from './ContactList/ContactList';
-import Filter from './Filter/Filter';
 
 export class App extends Component {
   state = { contacts: [], filter: '' };
